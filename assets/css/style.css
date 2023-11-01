@@ -45,6 +45,8 @@
     border: 2px solid black;
     border-radius: 5px;
     transition: all 400ms linear;
+    font-weight: var(--fw_500);
+    font-size: var(--fs_lg);
 }
 
 .border_1:hover {
@@ -191,6 +193,7 @@
     font-size: var(--fs_md);
     font-weight: var(--fw_400);
     color: var(--lite_black);
+    font-family: var(--ff_poppins);
 }
 
 .box-p {
