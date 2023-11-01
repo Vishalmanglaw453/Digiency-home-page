@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --fs_xsm: 10.24px;
+    --fs_sm: 12.8px;
+    --fs_md: 16px;
+    --fs_lg: 15px;
+    --fs_xl: 25px;
+    --fs_xxl: 30px;
+    --fs_2xl: 22.063px;
+    --fs_3xl: 39.06px;
+    --fs_4xl: 31.08px;
+    --fs_5xl: 19.5px;
+    --fs_6xl: 64px;
+    /* color */
+    --red: #FF5300;
+    --black: #373737;
+    --lite_black: #7B7B7B;
+    --grey: #EFEFEF;
+    --white: #FFFFFF;
+    /* font-weight */
+    --fw_300: 300;
+    --fw_400: 400;
+    --fw_500: 500;
+    --fw_600: 600;
+    --fw_700: 700;
+    --fw_800: 800;
+    /* bg-color */
+    --bg-color: #FFF7F4;
+    --bg-red: #FF5300;
+}
+.fw_300{
+    font-weight: var(--fw_300);
+}
+.fw_400{
+    font-weight: var(--fw_400);
+}
+
+.fw_400{
+    font-weight: var(--fw_400);
+}
+.fw_500{
+    font-weight: var(--fw_500);
+}
+.fw_600{
+    font-weight: var(--fw_600);
+}
+
+.fw_700{
+    font-weight: var(--fw_700);
+}
+.fw_800{
+    font-weight: var(--fw_800);
+}
+/* bg-color */
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+.bg-red {
+    background-color: var(--bg-red);
+}
+
+
+
+/* font-size */
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_lg {
+    font-size: var(--fs_lg);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs_3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs_4xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs_5xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs_6xl);
+}
+
+/* ff */
+.ff_poppins {
+    font-family: 'poppins';
+}
+
+.ff_Work {
+    font-family: 'Work Sans';
+}
+
+/* color */
+.red {
+    color: var(--red);
+}
+
+.black {
+    color: #373737;
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.lite_black {
+    color: var(--lite_black);
+}
+
+.white {
+    color: var(--white);
+}
+
+@media (min-width:568px) {
+
+    :root {
+        --fs_xsm: 10.24px;
+        --fs_sm: 12.8px;
+        --fs_md: 16px;
+        --fs_lg: 20px;
+        --fs_xl: 25px;
+        --fs_xxl: 30px;
+        --fs_2xl: 39.063px;
+        --fs_3xl: 39.06px;
+        --fs_4xl: 39.08px;
+        --fs_5xl: 48.83px;
+        --fs_6xl: 64px;
+    }
+}
