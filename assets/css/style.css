@@ -667,9 +667,10 @@ input[type="checkbox"]:checked+.sm {
     .scrol-baar {
         overflow-x: scroll;
     }
-    .lg-50{
+
+    .lg-50 {
         padding-top: 50px;
-    } 
+    }
 }
 
 @media (min-width:992px) {
@@ -809,6 +810,7 @@ input[type="checkbox"]:checked+.sm {
     .line-2_5::before {
         right: 43%;
     }
+   
 }
 
 @media (max-width:576px) {
@@ -859,8 +861,12 @@ input[type="checkbox"]:checked+.sm {
     .card-8 {
         height: 100%;
     }
+    
 }
-
+@media (min-width:1300px) {
+::-webkit-scrollbar {
+    display: none;
+ }}
 @media (min-width:576px) {
     .img_pos {
         position: absolute;
@@ -961,6 +967,7 @@ input[type="checkbox"]:checked+.sm {
         right: 20%;
         transform: translate(4%, -45%);
     }
+  
 }
 
 @media (min-width:1920px) {
