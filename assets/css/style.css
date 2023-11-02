@@ -434,6 +434,7 @@
     width: 100%;
     height: 200px;
     background-color: var(--bg-red);
+    border-radius: 10px;
 }
 
 .input_h {
