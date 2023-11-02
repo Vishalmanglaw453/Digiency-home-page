@@ -47,11 +47,19 @@
     transition: all 400ms linear;
     font-weight: var(--fw_500);
     font-size: var(--fs_lg);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 2px solid #FF5300;
+
 }
 
 .border_1:hover {
-    background-color: var(--white);
+    background-color: var(--bg-color);
     color: var(--red);
+    border: 2px solid #FF5300;
+
 }
 
 .nav_btn {
@@ -210,6 +218,23 @@
     font-family: var('ff_poppins');
 }
 
+.nav-box {
+    width: 100%;
+    height: 70px;
+    max-width: 1920px;
+    background-color: var(--bg-color);
+    position: fixed;
+    z-index: 4;
+}
+
+.nav_text {
+    color: var(--black);
+}
+
+.nav_text:hover {
+    color: var(--red);
+}
+
 .about_pera {
     max-width: 544px;
 }
@@ -271,7 +296,21 @@
 
 .btn-border {
     border-radius: 10px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 51px;
+    background-color: #FFF;
 }
+
+.btn-border:hover {
+
+    color: var(--white);
+    background-color: var(--bg-red);
+}
+
+
 
 .box-5 {
     width: 50px;
@@ -423,6 +462,7 @@
     font-family: var(--ff_poppins);
     font-weight: var(--fw_500);
     font-size: var(--fs_lg);
+    border: 2px solid var(--red);
 }
 
 .btn_card:hover {
@@ -487,6 +527,7 @@
     color: var(--white);
     font-weight: var(--fw_500);
     font-size: var(--fs_lg);
+    border: 2px solid var(--red);
 }
 
 .read_btn:hover {
@@ -622,6 +663,13 @@ input[type="checkbox"]:checked+.sm {
     .line-2_5::before {
         right: 40%;
     }
+
+    .scrol-baar {
+        overflow-x: scroll;
+    }
+    .lg-50{
+        padding-top: 50px;
+    } 
 }
 
 @media (min-width:992px) {
